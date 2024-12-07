@@ -31,7 +31,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'Sources'
-  s.source_files = 'TVCore/Classes/*/**'
   
   # s.resource_bundles = {
   #   'TVCore' => ['TVCore/Assets/*.png']
