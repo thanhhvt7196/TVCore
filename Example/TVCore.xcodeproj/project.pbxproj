@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CDD01BB2D0437AC001BD3E8 /* TVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDD01B92D04378E001BD3E8 /* TVManager.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,8 +30,9 @@
 
 /* Begin PBXFileReference section */
 		06477361182B1D94ED65C697 /* Pods-TVCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVCore_Example.debug.xcconfig"; path = "Target Support Files/Pods-TVCore_Example/Pods-TVCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2F460201A2822B57CC8430D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		42FBC42F93E18509C2DEDBDE /* TVCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TVCore.podspec; path = ../TVCore.podspec; sourceTree = "<group>"; };
+		0CDD01B92D04378E001BD3E8 /* TVManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVManager.swift; sourceTree = "<group>"; };
+		2F460201A2822B57CC8430D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		42FBC42F93E18509C2DEDBDE /* TVCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TVCore.podspec; path = ../TVCore.podspec; sourceTree = "<group>"; };
 		4EAAFDBADB1D76D9A02734AC /* Pods_TVCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5939AD78AA837DA6406B4904 /* Pods-TVCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVCore_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TVCore_Tests/Pods-TVCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TVCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +47,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		638AC78278C1728DC6D71A1B /* Pods-TVCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVCore_Tests.release.xcconfig"; path = "Target Support Files/Pods-TVCore_Tests/Pods-TVCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9A7628AF598F593CFAAE9150 /* Pods-TVCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVCore_Example.release.xcconfig"; path = "Target Support Files/Pods-TVCore_Example/Pods-TVCore_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DF8C3D9D844706F4972A06CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DF8C3D9D844706F4972A06CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E865E5FB9B9B8985903FA537 /* Pods_TVCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CDD01BA2D04378E001BD3E8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0CDD01B92D04378E001BD3E8 /* TVManager.swift */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = SOURCE_ROOT;
+		};
 		58FED2BF7E66B68FCE892603 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +92,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				0CDD01BA2D04378E001BD3E8 /* Sources */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for TVCore */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -156,7 +168,6 @@
 				5939AD78AA837DA6406B4904 /* Pods-TVCore_Tests.debug.xcconfig */,
 				638AC78278C1728DC6D71A1B /* Pods-TVCore_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +238,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -333,6 +345,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				0CDD01BB2D0437AC001BD3E8 /* TVManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

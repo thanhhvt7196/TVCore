@@ -1,0 +1,6 @@
+framework module TVCore {
+  umbrella header "TVCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
