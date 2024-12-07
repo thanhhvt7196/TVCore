@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/odyshewroman/AndroidTVRemoteControl", exact: "2.4.16"),
         .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", exact: "7.6.5"),
-        .package(url: "https://github.com/daltoniam/Starscream", exact: "4.0.8")
+        .package(url: "https://github.com/daltoniam/Starscream", from: "4.0.6")
     ],
     targets: [
         .target(
