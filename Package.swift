@@ -4,8 +4,7 @@ import PackageDescription
 let package = Package(
     name: "TVCore",
     platforms: [
-        .iOS(.v15), // Set the minimum deployment target
-        .macOS(.v10_15)
+        .iOS(.v15)
     ],
     products: [
         .library(
