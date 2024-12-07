@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "Sources"
+  "source_files": "Sources/**/*.{swift}",
+  "dependencies": {
+    "AndroidTVRemoteControl": [
+      "2.4.16"
+    ],
+    "Starscream": [
+      "~> 4.0.6"
+    ],
+    "CocoaAsyncSocket": [
+      "7.6.5"
+    ]
+  }
 }

@@ -7,77 +7,282 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01242BA5A2D56E6FC3E16B0F148A5890 /* RemoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3396B7E44FED344CBDD61ACE5D220 /* RemoteManager.swift */; };
 		01AC016C367585F3D327899432631C44 /* Pods-TVCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 196F77ACB623737E4E594B5DE93207D1 /* Pods-TVCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		057F9BAB30C73F666DD8ED7E7A81A733 /* TVCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A33490E0893F9219672ED35C74FAC43 /* TVCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EF4C9DE61BA47392C69AD95DEDC9D59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		5ABF7312BFDF749540519B63BDD51976 /* Pods-TVCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A69142CF99B35788D5A70172190B1F38 /* Pods-TVCore_Example-dummy.m */; };
-		867F5B5262CDBB50D7866907EB5A5B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		07B83A2E6FCF9A05339E6974FC9D3D32 /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F16C9D6FF460B0DAA4836C1BD15EF0 /* WebSocketServer.swift */; };
+		08495F2DAFA36769FC16758CFDAC1F67 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1135726EB9086A772D146BE927EFA6AB /* GCDAsyncUdpSocket.m */; };
+		0A3E92FF0D0C181343B9C79C73EACEE6 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DA23F74A45CCA6B3BA15831C096B3C /* Option.swift */; };
+		0BF77394EAA86673E7948ECD9871D89F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C5F737A1EBAC18257D3F8209A71C4A /* Security.framework */; };
+		0CD72127DA641AD9C10CF2DB2D352C6D /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B530E350E404694DAE15EF33F495BBC /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ED14C6D2DC2DFAB32C131A18BAE3739 /* DeepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939136CF0DF0B6A118A0DC710F33C87D /* DeepLink.swift */; };
+		0F05FF274B46D19CC6AE9C247EB1E328 /* TLSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24A60E0FCDE071DEA9EFEE0B0FE3CE4 /* TLSManager.swift */; };
+		1220E6451B93B29321F5F4F655FCA787 /* TvSSDPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA4ED0EDFFFC6D4098A62AE0A48E20B /* TvSSDPModel.swift */; };
+		132F780E43E12D7EDADAA2AD29A012AA /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2824CE67F93B8B33CA07932427F75AD /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		138463D749696B86F3324AC0882A64EB /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BB91558FE30160674149AD26A5D97EA1 /* GCDAsyncSocket.m */; };
+		147A5463FF6FFE40426B898B60344085 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D326EF5E0EBD3DA4F2B6DB4F0990F560 /* CFNetwork.framework */; };
+		152FD217A0C0D3CA2DBF79DA618F68AD /* AndroidTVRemoteControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5B64A8E6E67C978500AB8E4EACF71D /* AndroidTVRemoteControl-dummy.m */; };
+		1A0882D4666F1D01E4B00CC4D4F5FCD3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F72BC3FD0123BE42A258D0EBBE22C3 /* Result.swift */; };
+		1C6AFE1F4687A34CAD8C2A56690E031D /* AndroidTVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47BC88FAEB629FB767F5D380545BB3A /* AndroidTVManager.swift */; };
+		1E3E2F1DF5E1C8D27447FCF94D111167 /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8867B219000237E1146FF27692935A1 /* FoundationHTTPServerHandler.swift */; };
+		21A5D9EBAC5FED24E7FE77087A33B645 /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111980032D99F121C481FFAC98E4F8E8 /* Framer.swift */; };
+		29C4E13803C86A64AD8A3368E822F17C /* RemoteTVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22B3AC92B4B95BEEB9C6CEF061FF592 /* RemoteTVManager.swift */; };
+		2BC8357161AD1C16022D317A84773029 /* TvUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13854239B37CABE24D60B7EA7E4CB2 /* TvUtils.swift */; };
+		31E77D0FAC67DCFEE1F3173E441C67D6 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F93D2F81FB440164011A507AD78C442 /* Security.swift */; };
+		324D3B47D046C39889AB9BBBFEE30EC9 /* AndroidTVRemoteControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C212AED57D361FC4CDB41FAC8932EDD /* AndroidTVRemoteControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363FCF10946186AC54D01328015ADFF8 /* TVCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29411275B4E6CE76C717B0A59F9B296E /* TVCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CFB26DFC9AC8164AEC49CD75577C535 /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F16D2E74488FABBFB7A22C592ABA05 /* FoundationHTTPHandler.swift */; };
+		3EF4C9DE61BA47392C69AD95DEDC9D59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACAAC876EF7F0E867591D2662CCC04 /* Foundation.framework */; };
+		43FE097FBE9B5568B702545F99072CFB /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A778110B484D9F5E7F7B1B841C93D29 /* FoundationTransport.swift */; };
+		4704C67B45EF4625968CDD9A12AB48A9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D39883F10486F5EECA958E05D670518 /* Logger.swift */; };
+		4816EF150D924B1987414B356C7AB77E /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E554918C3A59B595C6905A41C0CC48D /* FrameCollector.swift */; };
+		4AC4E87A3CB2C676949C33E78E64BA93 /* Starscream-Starscream_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = 90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */; };
+		4C5BB45AFA17EE49908EEE4B8163EF76 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4306799093A9CB332095EFBC4C91 /* Server.swift */; };
+		4CED6B44BCEE12850DEB34877929E39A /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74564FCA3C34ADC886D9B75185A32E /* Direction.swift */; };
+		55DAC2E8DC333019B6C1D70EC91B0A22 /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3DB45BFBA44AE3EF7721B44327A93E /* WSCompression.swift */; };
+		561D1F03868EC8BA84A2B6A22031CB49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACAAC876EF7F0E867591D2662CCC04 /* Foundation.framework */; };
+		5884BE5A453A9E0417728E3FB8063EDD /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DDB648C4A209879C24436892143426 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CEE368E9A700A95CB69E9A00F27E06E /* CertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42797604BAD9FBFBD1ECA9B296123F7 /* CertManager.swift */; };
+		5E627A65BC0EEA7E978EAF67E97653D0 /* SamsungTvManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E876DAA670866F1D55C4C3524E9FA3 /* SamsungTvManager.swift */; };
+		69111C8CB8268AAD6DD50A84B22944EE /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FCE47DDD9FCF0D2244EE98C903365 /* FoundationSecurity.swift */; };
+		69B92D1883A2D2069444FAE5AAE6272A /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C9869999F54D9A508C1FA6F96DFF00 /* CocoaAsyncSocket-dummy.m */; };
+		71BE0212751D4981C9E41D12D1885E3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACAAC876EF7F0E867591D2662CCC04 /* Foundation.framework */; };
+		73628C1FC5D13CC0A44F5F49BD939298 /* VolumeLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431BA81566674E737FB9F8C1E190C8A4 /* VolumeLevel.swift */; };
+		788501D99C2EFAE8FA88521A96EF23B6 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007189BA6DB6757CCF72ED066B666ADD /* Key.swift */; };
+		828D1C3DBA9566399E4CDED46D2F5F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACAAC876EF7F0E867591D2662CCC04 /* Foundation.framework */; };
+		85F55FDAED763889D7DADACE5DC5C567 /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FBB70A0B362B07F48D427717378767 /* WSEngine.swift */; };
 		87154E82D8A64A418661DA48B179AEA5 /* Pods-TVCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97235668A2EB94DEB0F8C6131A6E3865 /* Pods-TVCore_Tests-dummy.m */; };
-		8CDDA55834EC6E5A2FDB35C55C8F2FA0 /* TVCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DADED8E30BD2CB68BB7F8B58444E9A8 /* TVCore-dummy.m */; };
-		A44709AB00FFE39E8E5AF3E7BBDA634C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		ABAAB80555C7138788809893080E95D8 /* Pods-TVCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 045D86264D944A49C882BEDB8A37D810 /* Pods-TVCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB4393D69086310B3AFBAD8025F237D0 /* TVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC26BF325D9DF0BD2D84083685A5ABA /* TVManager.swift */; };
+		8A472901A6A0E2D7231E376832198241 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70524D4E5D7593E1D6D63A77A3BE8830 /* WebSocket.swift */; };
+		8BC40F5E8EF3B5772055F36D21DF4EB4 /* PairingNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7792BDF7D5CB94632D4B78C9C7D1F6DB /* PairingNetwork.swift */; };
+		937D6A9035CA2E143EA555EF575D7771 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B313798096922F67C0C2B97B81BD5B /* Decoder.swift */; };
+		94E9D97D446194397E1017FFEE850A8F /* CryptoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D012FBFECFA3EAFF8BF2EAE68DE4ABA /* CryptoManager.swift */; };
+		95621F7EE7F56B1ACF4141E6EFB175A8 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B8E265FFAC91E12C7E0570B9667C6431 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9736927E586855B72355009BFC71472A /* CommandNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD3254BD168DED6CAB177053F2F6C0B /* CommandNetwork.swift */; };
+		9B277EFB1AD5A72662760E8D0256C46B /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03761C53FDB2494E37E8EE9AACD71290 /* Secret.swift */; };
+		9CF574DA646835573164D846428A7C9D /* Pods-TVCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 045D86264D944A49C882BEDB8A37D810 /* Pods-TVCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DCA868CA01442B6BC6C058BD80AA1AF /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B962D066513AA2A90E09C7855E022537 /* Encoder.swift */; };
+		A017485C3C202ADD0A059DFCCDA5D14D /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E16CFB869D7B80734753A343F45A48E7 /* Starscream-dummy.m */; };
+		A0A17B87EE7B5E97A88DAB84B7DF3649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACAAC876EF7F0E867591D2662CCC04 /* Foundation.framework */; };
+		A19C4F5081188E27B0C5351DDE505EE4 /* PairingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A914D6D0E6BD2CA6B8DDE488FE1DF8 /* PairingManager.swift */; };
+		A69BE0673FC4943B17EEE133BBC9B3F3 /* TvDeviceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1056E22FE33DB07DF2E7D48F14B09620 /* TvDeviceParser.swift */; };
+		AEA4315D67808DF97D41BBB5CABE560E /* TvDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCB93C51D4AB9E93F57B05904AD48EB /* TvDeviceModel.swift */; };
+		B1EDE680CB2182C3B4900E1945783F9B /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971BFC84B56904127B44CEB72A00FF6 /* NativeEngine.swift */; };
+		B4705C45D7AAE60DC9F5CBC0E9DD12FD /* SecondConfigurationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4D50A615C975EEFACD3AA552037FCF /* SecondConfigurationResponse.swift */; };
+		B80401CC2C21424358FBC059D78E7D5B /* TVCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 713CA10484B3EEF7745709058D7BCCC4 /* TVCore-dummy.m */; };
+		BB8E14A6583AD527E3C2699571D4870E /* RequestDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1570F50A042FEFAF74E0CC4565F23FC /* RequestDataProtocol.swift */; };
+		BBD9D3C04E8533015DA0E5F17D026260 /* KeyPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5719CF26BDD7C74B3E5270964AC0A23 /* KeyPress.swift */; };
+		BECD28904453E5C00C66B51D37CAD433 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D9BCC40732D6162059C3A42BFBFE1E /* Transport.swift */; };
+		C27AC4CF7DC6EEF22BE5CF742C34BF1B /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA3BE6BFABB3779A53E992462831AA /* Data+Extensions.swift */; };
+		C6928F55B53EEDC825CD9F048B15EE56 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = C2942102E055C16B6AFD9C0BAD4B3B6F /* PrivacyInfo.xcprivacy */; };
+		C6E71C71E4833389B33C0199196A5E13 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A595FAFEEAD75C7419598BA70D83E04 /* Engine.swift */; };
+		CE104E26FB362921B338CCE279E85C10 /* Ping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15343A8B928E137F443DE5DDCED3693 /* Ping.swift */; };
+		D34F185F196FAE98C10583753FE88762 /* Pairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDC04823FCF8616F35D560DEC413BC7 /* Pairing.swift */; };
+		D6102474025E613F9F8D98EFB708CEC6 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38249308790252B2E842634676CCD3AA /* Compression.swift */; };
+		D8D51B6D3248D9CEA719A66A2ABC7319 /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5AE303CC2336B0CECE92E49BF41020 /* StringHTTPHandler.swift */; };
+		D97B391BB812EB53F46605448B540BBD /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E17D2B97A544392BE48AD79184F56 /* Errors.swift */; };
+		DBCA729545B978C189129E59CBC16602 /* Pods-TVCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A69142CF99B35788D5A70172190B1F38 /* Pods-TVCore_Example-dummy.m */; };
+		DC1BF48258EE8EFFE0866829595E33F6 /* TvInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E67D7AA6A43047BEC4BE6ECB790888 /* TvInfoModel.swift */; };
+		DC2BE589B1C5A65E08CA6D9D7C319E17 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C315B8CA9BC3870E1B4B5809F45D470 /* HTTPHandler.swift */; };
+		DEEEE2CD5CCB22FF7CEE9A32B70C265A /* SecodConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485C82EC4A16C5432E7CC0EC15C9748D /* SecodConfiguration.swift */; };
+		E72A331E986E4A43EC73993A410442CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACAAC876EF7F0E867591D2662CCC04 /* Foundation.framework */; };
+		EF6F7FBB265F07D0CA4696C9600F4FC1 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E75F9BE99AFD52E434D731511D044A9 /* Configuration.swift */; };
+		F18B413634B2BD87D15D28AF2AFED758 /* AndroidTVConfigurationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316AD7FA0FBFD4BE6FA94BE2AEDE86FB /* AndroidTVConfigurationMessage.swift */; };
+		FD8A6F93705C4B172C32D52D17B2B5DC /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030C3A736E4674FCCF2E271D4EE53C3E /* TCPTransport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7F482ED442897AADB2551443A0F355BA /* PBXContainerItemProxy */ = {
+		033575A0ED25C5F7055BC272644C475E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2B06C8F4F1A33E4EC3F37D55175CF453;
-			remoteInfo = "Pods-TVCore_Example";
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
 		};
-		A9E80CA04425656CD2F61FF135549794 /* PBXContainerItemProxy */ = {
+		1F7E31AA347B33D8634A0438AD0D84A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0554B822F6C7C3D424A5677918E8331E;
+			remoteInfo = AndroidTVRemoteControl;
+		};
+		3B27BF58E80311D35553F6626EDA49EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0554B822F6C7C3D424A5677918E8331E;
+			remoteInfo = AndroidTVRemoteControl;
+		};
+		7BD46406DABE6ADC76F79ADCFD88ECE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		8BDFEF550DC640D021D8542D4A2B0105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		916A785C59F38A811BA1CAE27F5E63C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		99BACE6B074E110FE43A02E3C67EB4FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3225ACE0D5B9F7F746A41FA9E21839A5;
 			remoteInfo = TVCore;
 		};
+		B5E6664198EF284588E647C2F5C75121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 771210E06FA095D070EFB58429312B8F;
+			remoteInfo = "Starscream-Starscream_Privacy";
+		};
+		F685B487EFE0FFF798B9B62D4354E7BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B06C8F4F1A33E4EC3F37D55175CF453;
+			remoteInfo = "Pods-TVCore_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007189BA6DB6757CCF72ED066B666ADD /* Key.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Key.swift; path = Sources/AndroidTVRemoteControl/Commands/Key.swift; sourceTree = "<group>"; };
+		030C3A736E4674FCCF2E271D4EE53C3E /* TCPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Sources/Transport/TCPTransport.swift; sourceTree = "<group>"; };
+		03761C53FDB2494E37E8EE9AACD71290 /* Secret.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Secret.swift; path = Sources/AndroidTVRemoteControl/Network/PairingNetwork/Secret.swift; sourceTree = "<group>"; };
 		045D86264D944A49C882BEDB8A37D810 /* Pods-TVCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVCore_Example-umbrella.h"; sourceTree = "<group>"; };
+		0C315B8CA9BC3870E1B4B5809F45D470 /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
+		0DA4ED0EDFFFC6D4098A62AE0A48E20B /* TvSSDPModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TvSSDPModel.swift; sourceTree = "<group>"; };
+		0E75F9BE99AFD52E434D731511D044A9 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/AndroidTVRemoteControl/Network/PairingNetwork/Configuration.swift; sourceTree = "<group>"; };
 		0FC4EC9C10D7A431A2C8DA608BF5FD86 /* Pods-TVCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1056E22FE33DB07DF2E7D48F14B09620 /* TvDeviceParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TvDeviceParser.swift; path = Sources/TvDeviceParser.swift; sourceTree = "<group>"; };
+		10FEF3D2E33D0471B2258345E1A641DC /* TVCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TVCore-Info.plist"; sourceTree = "<group>"; };
+		111980032D99F121C481FFAC98E4F8E8 /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
+		1135726EB9086A772D146BE927EFA6AB /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		13F16D2E74488FABBFB7A22C592ABA05 /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
+		160130B58718328BD74852FC805D4DE4 /* AndroidTVRemoteControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AndroidTVRemoteControl-Info.plist"; sourceTree = "<group>"; };
+		186145796E8F0AFF418991EBEE3F968A /* AndroidTVRemoteControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AndroidTVRemoteControl-prefix.pch"; sourceTree = "<group>"; };
+		189E17D2B97A544392BE48AD79184F56 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/AndroidTVRemoteControl/Errors.swift; sourceTree = "<group>"; };
 		196F77ACB623737E4E594B5DE93207D1 /* Pods-TVCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVCore_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2A33490E0893F9219672ED35C74FAC43 /* TVCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TVCore-umbrella.h"; sourceTree = "<group>"; };
-		34555E0FDA45573D7353E926E2F26507 /* TVCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TVCore.release.xcconfig; sourceTree = "<group>"; };
-		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3AB9D3C1229073F53B60BC55DE9BEB2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3DADED8E30BD2CB68BB7F8B58444E9A8 /* TVCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TVCore-dummy.m"; sourceTree = "<group>"; };
-		4CC26BF325D9DF0BD2D84083685A5ABA /* TVManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TVManager.swift; path = Sources/TVManager.swift; sourceTree = "<group>"; };
+		1A778110B484D9F5E7F7B1B841C93D29 /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
+		1AD3396B7E44FED344CBDD61ACE5D220 /* RemoteManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteManager.swift; path = Sources/AndroidTVRemoteControl/RemoteManager.swift; sourceTree = "<group>"; };
+		21D9BCC40732D6162059C3A42BFBFE1E /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport/Transport.swift; sourceTree = "<group>"; };
+		29411275B4E6CE76C717B0A59F9B296E /* TVCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TVCore-umbrella.h"; sourceTree = "<group>"; };
+		2A595FAFEEAD75C7419598BA70D83E04 /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
+		306293913B86BEFD5E371BD890B672EA /* TVCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TVCore.modulemap; sourceTree = "<group>"; };
+		316AD7FA0FBFD4BE6FA94BE2AEDE86FB /* AndroidTVConfigurationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AndroidTVConfigurationMessage.swift; path = Sources/AndroidTVRemoteControl/Network/CommandNetwork/AndroidTVConfigurationMessage.swift; sourceTree = "<group>"; };
+		33DDB648C4A209879C24436892143426 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		34EA3BE6BFABB3779A53E992462831AA /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
+		366867EA58873D7AEBA4645C4E8370D3 /* TVCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TVCore-prefix.pch"; sourceTree = "<group>"; };
+		36B313798096922F67C0C2B97B81BD5B /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Sources/AndroidTVRemoteControl/coding/Decoder.swift; sourceTree = "<group>"; };
+		37F72BC3FD0123BE42A258D0EBBE22C3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/AndroidTVRemoteControl/misc/Result.swift; sourceTree = "<group>"; };
+		38249308790252B2E842634676CCD3AA /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression/Compression.swift; sourceTree = "<group>"; };
+		38C9869999F54D9A508C1FA6F96DFF00 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		40C42C2E09910C1E57EFC47BD002AAFB /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
+		40FBB70A0B362B07F48D427717378767 /* WSEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSEngine.swift; path = Sources/Engine/WSEngine.swift; sourceTree = "<group>"; };
+		41ACAAC876EF7F0E867591D2662CCC04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		431BA81566674E737FB9F8C1E190C8A4 /* VolumeLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeLevel.swift; path = Sources/AndroidTVRemoteControl/Network/CommandNetwork/VolumeLevel.swift; sourceTree = "<group>"; };
+		43E8639884251841589AFC359D9BE651 /* AndroidTVRemoteControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AndroidTVRemoteControl.modulemap; sourceTree = "<group>"; };
+		485C82EC4A16C5432E7CC0EC15C9748D /* SecodConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecodConfiguration.swift; path = Sources/AndroidTVRemoteControl/Network/CommandNetwork/SecodConfiguration.swift; sourceTree = "<group>"; };
+		4971BFC84B56904127B44CEB72A00FF6 /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
+		4C212AED57D361FC4CDB41FAC8932EDD /* AndroidTVRemoteControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AndroidTVRemoteControl-umbrella.h"; sourceTree = "<group>"; };
 		51DE43DF61081DE432A2C95D12D67C29 /* Pods-TVCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5847A215B438C0963C5BE3238AF21396 /* TVCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TVCore.modulemap; sourceTree = "<group>"; };
+		541D0D2FA8076056563F31EF5E8A11DC /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		58AAA007489410F1735DFC6C646523A7 /* TVCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TVCore.debug.xcconfig; sourceTree = "<group>"; };
 		59125EA6A172DE0B552E5E6BFB477196 /* Pods-TVCore_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVCore_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		65D574A8DAE2E2B2C1C2D8D3D4469237 /* TVCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TVCore-Info.plist"; sourceTree = "<group>"; };
+		5B5AE303CC2336B0CECE92E49BF41020 /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
+		5D012FBFECFA3EAFF8BF2EAE68DE4ABA /* CryptoManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoManager.swift; path = Sources/AndroidTVRemoteControl/CryptoManager.swift; sourceTree = "<group>"; };
+		5E554918C3A59B595C6905A41C0CC48D /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
+		5F5B64A8E6E67C978500AB8E4EACF71D /* AndroidTVRemoteControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AndroidTVRemoteControl-dummy.m"; sourceTree = "<group>"; };
+		60A914D6D0E6BD2CA6B8DDE488FE1DF8 /* PairingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PairingManager.swift; path = Sources/AndroidTVRemoteControl/PairingManager.swift; sourceTree = "<group>"; };
+		644829C8D2E274DE4171E02C3A9CD76A /* AndroidTVRemoteControl */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AndroidTVRemoteControl; path = AndroidTVRemoteControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65092DDD99202DC39A7824314FDB1970 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		6A3DB45BFBA44AE3EF7721B44327A93E /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
+		6B530E350E404694DAE15EF33F495BBC /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
 		6C4619B23BC21F4613299AC432B179F1 /* TVCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TVCore; path = TVCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70524D4E5D7593E1D6D63A77A3BE8830 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		713CA10484B3EEF7745709058D7BCCC4 /* TVCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TVCore-dummy.m"; sourceTree = "<group>"; };
 		7474A55FE81843F077F0E2CF0C15DAF0 /* Pods-TVCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7AC8DCAAB52447AB9AD1A0A78FE5AB94 /* TVCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TVCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		74C5F737A1EBAC18257D3F8209A71C4A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		7792BDF7D5CB94632D4B78C9C7D1F6DB /* PairingNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PairingNetwork.swift; path = Sources/AndroidTVRemoteControl/Network/PairingNetwork/PairingNetwork.swift; sourceTree = "<group>"; };
+		79E66E2F4058DBC8DDA9A113A414A89B /* TVCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TVCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7DCB93C51D4AB9E93F57B05904AD48EB /* TvDeviceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TvDeviceModel.swift; sourceTree = "<group>"; };
+		83F16C9D6FF460B0DAA4836C1BD15EF0 /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F93D2F81FB440164011A507AD78C442 /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
+		90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Starscream-Starscream_Privacy"; path = Starscream_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		939136CF0DF0B6A118A0DC710F33C87D /* DeepLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeepLink.swift; path = Sources/AndroidTVRemoteControl/Commands/DeepLink.swift; sourceTree = "<group>"; };
 		9689BF99140C57AAD9E19F4B0CC9061E /* Pods-TVCore_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVCore_Example-Info.plist"; sourceTree = "<group>"; };
+		96C034C194D6DD0A8AB42AF944FF50E9 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
 		97235668A2EB94DEB0F8C6131A6E3865 /* Pods-TVCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVCore_Tests-dummy.m"; sourceTree = "<group>"; };
+		97E876DAA670866F1D55C4C3524E9FA3 /* SamsungTvManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SamsungTvManager.swift; path = Sources/SamsungTvManager.swift; sourceTree = "<group>"; };
+		98DA23F74A45CCA6B3BA15831C096B3C /* Option.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Option.swift; path = Sources/AndroidTVRemoteControl/Network/PairingNetwork/Option.swift; sourceTree = "<group>"; };
+		99E67D7AA6A43047BEC4BE6ECB790888 /* TvInfoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TvInfoModel.swift; sourceTree = "<group>"; };
+		9D39883F10486F5EECA958E05D670518 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Sources/AndroidTVRemoteControl/misc/Logger.swift; sourceTree = "<group>"; };
+		9D74564FCA3C34ADC886D9B75185A32E /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = Sources/AndroidTVRemoteControl/Commands/Direction.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0C467A8661E4ABF936A3A80FD94E181 /* Pods-TVCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A15343A8B928E137F443DE5DDCED3693 /* Ping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ping.swift; path = Sources/AndroidTVRemoteControl/Network/CommandNetwork/Ping.swift; sourceTree = "<group>"; };
 		A548DCEBE3C824FBC475A204CA3D91E9 /* Pods-TVCore_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVCore_Tests-Info.plist"; sourceTree = "<group>"; };
 		A69142CF99B35788D5A70172190B1F38 /* Pods-TVCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVCore_Example-dummy.m"; sourceTree = "<group>"; };
+		A6CB04BF823E1589DF80B473B195168F /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		AE7F77268DBB1AFBC6A9C4635FC35CF1 /* TVCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TVCore.release.xcconfig; sourceTree = "<group>"; };
 		AF1C907F2B70A7DBD833B784BF29E27C /* Pods-TVCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TVCore_Example.modulemap"; sourceTree = "<group>"; };
+		B1347CC2F22011334FA2103605913588 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
 		B27E29AE22E6E06074770DC965283E09 /* Pods-TVCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVCore_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B46BAC2E9CCB2C4C2B75DD51CE6BE443 /* TVCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TVCore.debug.xcconfig; sourceTree = "<group>"; };
+		B47BC88FAEB629FB767F5D380545BB3A /* AndroidTVManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AndroidTVManager.swift; path = Sources/AndroidTVManager.swift; sourceTree = "<group>"; };
+		B5719CF26BDD7C74B3E5270964AC0A23 /* KeyPress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyPress.swift; path = Sources/AndroidTVRemoteControl/Commands/KeyPress.swift; sourceTree = "<group>"; };
 		B64095CC7A1585A3900D8218724C7B8B /* Pods-TVCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B8E265FFAC91E12C7E0570B9667C6431 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		B962D066513AA2A90E09C7855E022537 /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Sources/AndroidTVRemoteControl/coding/Encoder.swift; sourceTree = "<group>"; };
+		BB91558FE30160674149AD26A5D97EA1 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		BBEB1D96DF634FF086CB0FD4D91D2841 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BDEC96B64731C29CE6689E0716FE3C77 /* AndroidTVRemoteControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AndroidTVRemoteControl.debug.xcconfig; sourceTree = "<group>"; };
+		BDF439D6BC2C1D08584C5C3A54600B04 /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		BE4A03D4D17DA15D3579E15E1F467826 /* ResourceBundle-Starscream_Privacy-Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Starscream_Privacy-Starscream-Info.plist"; sourceTree = "<group>"; };
+		C0C07B2077B4A49FD418E5910561A92A /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
+		C2942102E055C16B6AFD9C0BAD4B3B6F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C42797604BAD9FBFBD1ECA9B296123F7 /* CertManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CertManager.swift; path = Sources/AndroidTVRemoteControl/CertManager.swift; sourceTree = "<group>"; };
+		C81DCC0CBB45AD9140E81B6049D6B7AF /* AndroidTVRemoteControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AndroidTVRemoteControl.release.xcconfig; sourceTree = "<group>"; };
+		C85A98A6C15391BD647687B0D4DEE288 /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
+		CAD3254BD168DED6CAB177053F2F6C0B /* CommandNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommandNetwork.swift; path = Sources/AndroidTVRemoteControl/Network/CommandNetwork/CommandNetwork.swift; sourceTree = "<group>"; };
+		CC4D50A615C975EEFACD3AA552037FCF /* SecondConfigurationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecondConfigurationResponse.swift; path = Sources/AndroidTVRemoteControl/Network/CommandNetwork/SecondConfigurationResponse.swift; sourceTree = "<group>"; };
+		D24A60E0FCDE071DEA9EFEE0B0FE3CE4 /* TLSManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLSManager.swift; path = Sources/AndroidTVRemoteControl/TLSManager.swift; sourceTree = "<group>"; };
+		D326EF5E0EBD3DA4F2B6DB4F0990F560 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		D5DA78909FF3DB3FED222852F4899F19 /* Pods-TVCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E8E33271C956EB8C4E5CE7B907FBC74A /* TVCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TVCore-prefix.pch"; sourceTree = "<group>"; };
+		DDDC04823FCF8616F35D560DEC413BC7 /* Pairing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pairing.swift; path = Sources/AndroidTVRemoteControl/Network/PairingNetwork/Pairing.swift; sourceTree = "<group>"; };
+		E1570F50A042FEFAF74E0CC4565F23FC /* RequestDataProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestDataProtocol.swift; path = Sources/AndroidTVRemoteControl/Network/RequestDataProtocol.swift; sourceTree = "<group>"; };
+		E16CFB869D7B80734753A343F45A48E7 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		E1F03540C07D49A4CDA403C3CE3A1186 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		E2824CE67F93B8B33CA07932427F75AD /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		EC13854239B37CABE24D60B7EA7E4CB2 /* TvUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TvUtils.swift; path = Sources/TvUtils.swift; sourceTree = "<group>"; };
 		ED6BC4226AAAE656B337AA4773C7A8FC /* Pods-TVCore_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TVCore_Tests"; path = Pods_TVCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED97733068C09050C07365E14CB52F3B /* Pods-TVCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVCore_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F22B3AC92B4B95BEEB9C6CEF061FF592 /* RemoteTVManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteTVManager.swift; path = Sources/RemoteTVManager.swift; sourceTree = "<group>"; };
+		F45FCE47DDD9FCF0D2244EE98C903365 /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
+		F695A99F9B14722852F2DB0DFE70B0E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F83E9CDCBE77BB87F0B23912AB6AF10A /* Pods-TVCore_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TVCore_Example"; path = Pods_TVCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8867B219000237E1146FF27692935A1 /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
+		FBCA4306799093A9CB332095EFBC4C91 /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
 		FF57F90536D2DA210E3C07CA9D515773 /* Pods-TVCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TVCore_Tests.modulemap"; sourceTree = "<group>"; };
-		FF99C5D88BDC8E998BD5601352973DD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		302D249F2F51EAFA6B2A3B8407ECF38D /* Frameworks */ = {
+		486D87ACA3027DC894A195B71D15E32C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				867F5B5262CDBB50D7866907EB5A5B3A /* Foundation.framework in Frameworks */,
+				71BE0212751D4981C9E41D12D1885E3D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,25 +294,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0699C003603F06E3DBD869B1E47F0FB /* Frameworks */ = {
+		6684C79B9BBF3C8C5B1B6F9FE4D46C36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A44709AB00FFE39E8E5AF3E7BBDA634C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EF5BBC3EFCFE60910B74638A1755FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A17B87EE7B5E97A88DAB84B7DF3649 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A335574BA0C6C12E123375C86C97339F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72A331E986E4A43EC73993A410442CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25196560B18491B63C7A6BAA8E3A970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828D1C3DBA9566399E4CDED46D2F5F55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3F4FA98DFFB612E3B16EA4A609DAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147A5463FF6FFE40426B898B60344085 /* CFNetwork.framework in Frameworks */,
+				561D1F03868EC8BA84A2B6A22031CB49 /* Foundation.framework in Frameworks */,
+				0BF77394EAA86673E7948ECD9871D89F /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		048962997A307AA1D9A47DB6D3EFED26 /* Pod */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3AB9D3C1229073F53B60BC55DE9BEB2D /* LICENSE */,
-				FF99C5D88BDC8E998BD5601352973DD1 /* README.md */,
-				7AC8DCAAB52447AB9AD1A0A78FE5AB94 /* TVCore.podspec */,
+				BA9C458257F9092BA9AE133CBC614DAC /* iOS */,
 			);
-			name = Pod;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04802A5C16A8C0261F9447217EF6A69E /* AndroidTVRemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				316AD7FA0FBFD4BE6FA94BE2AEDE86FB /* AndroidTVConfigurationMessage.swift */,
+				C42797604BAD9FBFBD1ECA9B296123F7 /* CertManager.swift */,
+				CAD3254BD168DED6CAB177053F2F6C0B /* CommandNetwork.swift */,
+				0E75F9BE99AFD52E434D731511D044A9 /* Configuration.swift */,
+				5D012FBFECFA3EAFF8BF2EAE68DE4ABA /* CryptoManager.swift */,
+				36B313798096922F67C0C2B97B81BD5B /* Decoder.swift */,
+				939136CF0DF0B6A118A0DC710F33C87D /* DeepLink.swift */,
+				9D74564FCA3C34ADC886D9B75185A32E /* Direction.swift */,
+				B962D066513AA2A90E09C7855E022537 /* Encoder.swift */,
+				189E17D2B97A544392BE48AD79184F56 /* Errors.swift */,
+				007189BA6DB6757CCF72ED066B666ADD /* Key.swift */,
+				B5719CF26BDD7C74B3E5270964AC0A23 /* KeyPress.swift */,
+				9D39883F10486F5EECA958E05D670518 /* Logger.swift */,
+				98DA23F74A45CCA6B3BA15831C096B3C /* Option.swift */,
+				DDDC04823FCF8616F35D560DEC413BC7 /* Pairing.swift */,
+				60A914D6D0E6BD2CA6B8DDE488FE1DF8 /* PairingManager.swift */,
+				7792BDF7D5CB94632D4B78C9C7D1F6DB /* PairingNetwork.swift */,
+				A15343A8B928E137F443DE5DDCED3693 /* Ping.swift */,
+				1AD3396B7E44FED344CBDD61ACE5D220 /* RemoteManager.swift */,
+				E1570F50A042FEFAF74E0CC4565F23FC /* RequestDataProtocol.swift */,
+				37F72BC3FD0123BE42A258D0EBBE22C3 /* Result.swift */,
+				485C82EC4A16C5432E7CC0EC15C9748D /* SecodConfiguration.swift */,
+				CC4D50A615C975EEFACD3AA552037FCF /* SecondConfigurationResponse.swift */,
+				03761C53FDB2494E37E8EE9AACD71290 /* Secret.swift */,
+				D24A60E0FCDE071DEA9EFEE0B0FE3CE4 /* TLSManager.swift */,
+				431BA81566674E737FB9F8C1E190C8A4 /* VolumeLevel.swift */,
+				B83A1D5686744E7F35FFDA5155F5B352 /* Support Files */,
+			);
+			name = AndroidTVRemoteControl;
+			path = AndroidTVRemoteControl;
+			sourceTree = "<group>";
+		};
+		04B1B29A01A21FF5AB9B238DF883BAA3 /* TVCore */ = {
+			isa = PBXGroup;
+			children = (
+				B47BC88FAEB629FB767F5D380545BB3A /* AndroidTVManager.swift */,
+				F22B3AC92B4B95BEEB9C6CEF061FF592 /* RemoteTVManager.swift */,
+				97E876DAA670866F1D55C4C3524E9FA3 /* SamsungTvManager.swift */,
+				1056E22FE33DB07DF2E7D48F14B09620 /* TvDeviceParser.swift */,
+				EC13854239B37CABE24D60B7EA7E4CB2 /* TvUtils.swift */,
+				CAC1D13F3B657E9966D6C00E254D01EB /* Model */,
+				984FE59AE9AF7E1564B672A040F39316 /* Pod */,
+				FDC76214306FE1517E637EE351E6C298 /* Support Files */,
+			);
+			name = TVCore;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1D1DC46A129C43959CB642C685F8F745 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE4A03D4D17DA15D3579E15E1F467826 /* ResourceBundle-Starscream_Privacy-Starscream-Info.plist */,
+				B1347CC2F22011334FA2103605913588 /* Starscream.modulemap */,
+				E16CFB869D7B80734753A343F45A48E7 /* Starscream-dummy.m */,
+				65092DDD99202DC39A7824314FDB1970 /* Starscream-Info.plist */,
+				96C034C194D6DD0A8AB42AF944FF50E9 /* Starscream-prefix.pch */,
+				E2824CE67F93B8B33CA07932427F75AD /* Starscream-umbrella.h */,
+				C0C07B2077B4A49FD418E5910561A92A /* Starscream.debug.xcconfig */,
+				40C42C2E09910C1E57EFC47BD002AAFB /* Starscream.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
 			sourceTree = "<group>";
 		};
 		348E5F93146F2881C230CC2FAED96EBC /* Targets Support Files */ = {
@@ -119,15 +422,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4A89A1E792A36032500282A3EB9E6008 /* TVCore */ = {
+		3D6D09DF65FC376E277FE29F4BB9D203 /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				4CC26BF325D9DF0BD2D84083685A5ABA /* TVManager.swift */,
-				048962997A307AA1D9A47DB6D3EFED26 /* Pod */,
-				B85DF03679B3FCFBDAC95273EE7FD1EA /* Support Files */,
+				33DDB648C4A209879C24436892143426 /* GCDAsyncSocket.h */,
+				BB91558FE30160674149AD26A5D97EA1 /* GCDAsyncSocket.m */,
+				B8E265FFAC91E12C7E0570B9667C6431 /* GCDAsyncUdpSocket.h */,
+				1135726EB9086A772D146BE927EFA6AB /* GCDAsyncUdpSocket.m */,
+				71E676F814041ADCB9800BCE884B49A4 /* Support Files */,
 			);
-			name = TVCore;
-			path = ../..;
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		50B09D895AB771A695B1FE9A52421231 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04802A5C16A8C0261F9447217EF6A69E /* AndroidTVRemoteControl */,
+				3D6D09DF65FC376E277FE29F4BB9D203 /* CocoaAsyncSocket */,
+				CBC23F3E1251ABB2A4F606FA163EC8FB /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71E676F814041ADCB9800BCE884B49A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				541D0D2FA8076056563F31EF5E8A11DC /* CocoaAsyncSocket.modulemap */,
+				38C9869999F54D9A508C1FA6F96DFF00 /* CocoaAsyncSocket-dummy.m */,
+				E1F03540C07D49A4CDA403C3CE3A1186 /* CocoaAsyncSocket-Info.plist */,
+				A6CB04BF823E1589DF80B473B195168F /* CocoaAsyncSocket-prefix.pch */,
+				6B530E350E404694DAE15EF33F495BBC /* CocoaAsyncSocket-umbrella.h */,
+				BDF439D6BC2C1D08584C5C3A54600B04 /* CocoaAsyncSocket.debug.xcconfig */,
+				C85A98A6C15391BD647687B0D4DEE288 /* CocoaAsyncSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
 			sourceTree = "<group>";
 		};
 		84015CE4A8490C3D7A92BE692192B44F /* Pods-TVCore_Example */ = {
@@ -163,77 +493,142 @@
 			path = "Target Support Files/Pods-TVCore_Tests";
 			sourceTree = "<group>";
 		};
-		A7F90F9912261B6550998CFA281172C1 /* Development Pods */ = {
+		984FE59AE9AF7E1564B672A040F39316 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4A89A1E792A36032500282A3EB9E6008 /* TVCore */,
+				BBEB1D96DF634FF086CB0FD4D91D2841 /* LICENSE */,
+				F695A99F9B14722852F2DB0DFE70B0E3 /* README.md */,
+				79E66E2F4058DBC8DDA9A113A414A89B /* TVCore.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		B85DF03679B3FCFBDAC95273EE7FD1EA /* Support Files */ = {
+		B83A1D5686744E7F35FFDA5155F5B352 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5847A215B438C0963C5BE3238AF21396 /* TVCore.modulemap */,
-				3DADED8E30BD2CB68BB7F8B58444E9A8 /* TVCore-dummy.m */,
-				65D574A8DAE2E2B2C1C2D8D3D4469237 /* TVCore-Info.plist */,
-				E8E33271C956EB8C4E5CE7B907FBC74A /* TVCore-prefix.pch */,
-				2A33490E0893F9219672ED35C74FAC43 /* TVCore-umbrella.h */,
-				B46BAC2E9CCB2C4C2B75DD51CE6BE443 /* TVCore.debug.xcconfig */,
-				34555E0FDA45573D7353E926E2F26507 /* TVCore.release.xcconfig */,
+				43E8639884251841589AFC359D9BE651 /* AndroidTVRemoteControl.modulemap */,
+				5F5B64A8E6E67C978500AB8E4EACF71D /* AndroidTVRemoteControl-dummy.m */,
+				160130B58718328BD74852FC805D4DE4 /* AndroidTVRemoteControl-Info.plist */,
+				186145796E8F0AFF418991EBEE3F968A /* AndroidTVRemoteControl-prefix.pch */,
+				4C212AED57D361FC4CDB41FAC8932EDD /* AndroidTVRemoteControl-umbrella.h */,
+				BDEC96B64731C29CE6689E0716FE3C77 /* AndroidTVRemoteControl.debug.xcconfig */,
+				C81DCC0CBB45AD9140E81B6049D6B7AF /* AndroidTVRemoteControl.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TVCore";
+			path = "../Target Support Files/AndroidTVRemoteControl";
 			sourceTree = "<group>";
 		};
-		C8BA09573AE4A9BBDC4B0149103D09EE /* Products */ = {
+		BA9C458257F9092BA9AE133CBC614DAC /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D326EF5E0EBD3DA4F2B6DB4F0990F560 /* CFNetwork.framework */,
+				41ACAAC876EF7F0E867591D2662CCC04 /* Foundation.framework */,
+				74C5F737A1EBAC18257D3F8209A71C4A /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA4BE0D08AAAD92BF6A0602BC53564B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644829C8D2E274DE4171E02C3A9CD76A /* AndroidTVRemoteControl */,
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
 				F83E9CDCBE77BB87F0B23912AB6AF10A /* Pods-TVCore_Example */,
 				ED6BC4226AAAE656B337AA4773C7A8FC /* Pods-TVCore_Tests */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream */,
+				90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */,
 				6C4619B23BC21F4613299AC432B179F1 /* TVCore */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC1D13F3B657E9966D6C00E254D01EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DCB93C51D4AB9E93F57B05904AD48EB /* TvDeviceModel.swift */,
+				99E67D7AA6A43047BEC4BE6ECB790888 /* TvInfoModel.swift */,
+				0DA4ED0EDFFFC6D4098A62AE0A48E20B /* TvSSDPModel.swift */,
+			);
+			name = Model;
+			path = Sources/Model;
+			sourceTree = "<group>";
+		};
+		CBC23F3E1251ABB2A4F606FA163EC8FB /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				38249308790252B2E842634676CCD3AA /* Compression.swift */,
+				34EA3BE6BFABB3779A53E992462831AA /* Data+Extensions.swift */,
+				2A595FAFEEAD75C7419598BA70D83E04 /* Engine.swift */,
+				13F16D2E74488FABBFB7A22C592ABA05 /* FoundationHTTPHandler.swift */,
+				F8867B219000237E1146FF27692935A1 /* FoundationHTTPServerHandler.swift */,
+				F45FCE47DDD9FCF0D2244EE98C903365 /* FoundationSecurity.swift */,
+				1A778110B484D9F5E7F7B1B841C93D29 /* FoundationTransport.swift */,
+				5E554918C3A59B595C6905A41C0CC48D /* FrameCollector.swift */,
+				111980032D99F121C481FFAC98E4F8E8 /* Framer.swift */,
+				0C315B8CA9BC3870E1B4B5809F45D470 /* HTTPHandler.swift */,
+				4971BFC84B56904127B44CEB72A00FF6 /* NativeEngine.swift */,
+				8F93D2F81FB440164011A507AD78C442 /* Security.swift */,
+				FBCA4306799093A9CB332095EFBC4C91 /* Server.swift */,
+				5B5AE303CC2336B0CECE92E49BF41020 /* StringHTTPHandler.swift */,
+				030C3A736E4674FCCF2E271D4EE53C3E /* TCPTransport.swift */,
+				21D9BCC40732D6162059C3A42BFBFE1E /* Transport.swift */,
+				70524D4E5D7593E1D6D63A77A3BE8830 /* WebSocket.swift */,
+				83F16C9D6FF460B0DAA4836C1BD15EF0 /* WebSocketServer.swift */,
+				6A3DB45BFBA44AE3EF7721B44327A93E /* WSCompression.swift */,
+				40FBB70A0B362B07F48D427717378767 /* WSEngine.swift */,
+				EA9B31BB3FA9AC15633A1F74AA5311B4 /* Resources */,
+				1D1DC46A129C43959CB642C685F8F745 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A7F90F9912261B6550998CFA281172C1 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C8BA09573AE4A9BBDC4B0149103D09EE /* Products */,
+				FEA4998F50B99E4A6FE4B3C9AE3F67DA /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				50B09D895AB771A695B1FE9A52421231 /* Pods */,
+				CA4BE0D08AAAD92BF6A0602BC53564B4 /* Products */,
 				348E5F93146F2881C230CC2FAED96EBC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		EA9B31BB3FA9AC15633A1F74AA5311B4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+				C2942102E055C16B6AFD9C0BAD4B3B6F /* PrivacyInfo.xcprivacy */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+		FDC76214306FE1517E637EE351E6C298 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+				306293913B86BEFD5E371BD890B672EA /* TVCore.modulemap */,
+				713CA10484B3EEF7745709058D7BCCC4 /* TVCore-dummy.m */,
+				10FEF3D2E33D0471B2258345E1A641DC /* TVCore-Info.plist */,
+				366867EA58873D7AEBA4645C4E8370D3 /* TVCore-prefix.pch */,
+				29411275B4E6CE76C717B0A59F9B296E /* TVCore-umbrella.h */,
+				58AAA007489410F1735DFC6C646523A7 /* TVCore.debug.xcconfig */,
+				AE7F77268DBB1AFBC6A9C4635FC35CF1 /* TVCore.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TVCore";
+			sourceTree = "<group>";
+		};
+		FEA4998F50B99E4A6FE4B3C9AE3F67DA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04B1B29A01A21FF5AB9B238DF883BAA3 /* TVCore */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		184F9BA67E55E2BD6FB8E6E1DCFF5ED5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				057F9BAB30C73F666DD8ED7E7A81A733 /* TVCore-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1F0CD530AEA8D1369491D6BCFA809E14 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,30 +637,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6840043DDBFD49250ABA76E5988451C3 /* Headers */ = {
+		960E564BFA8ACD2BA342FE3AF711AD12 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABAAB80555C7138788809893080E95D8 /* Pods-TVCore_Example-umbrella.h in Headers */,
+				9CF574DA646835573164D846428A7C9D /* Pods-TVCore_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC0076E3E765059D7A68C526898B082 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363FCF10946186AC54D01328015ADFF8 /* TVCore-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDF22A2C7F0B9D5B5C7665175828D0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324D3B47D046C39889AB9BBBFEE30EC9 /* AndroidTVRemoteControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00DD05508D994002EFC16C8D151D97D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD72127DA641AD9C10CF2DB2D352C6D /* CocoaAsyncSocket-umbrella.h in Headers */,
+				5884BE5A453A9E0417728E3FB8063EDD /* GCDAsyncSocket.h in Headers */,
+				95621F7EE7F56B1ACF4141E6EFB175A8 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE343FFAC5CCBBEDC781E4FA3601A1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132F780E43E12D7EDADAA2AD29A012AA /* Starscream-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2B06C8F4F1A33E4EC3F37D55175CF453 /* Pods-TVCore_Example */ = {
+		0554B822F6C7C3D424A5677918E8331E /* AndroidTVRemoteControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F7FE93829762E7E0B79DD3690AA0978 /* Build configuration list for PBXNativeTarget "Pods-TVCore_Example" */;
+			buildConfigurationList = 37A41B422AAF30E24C050E4F054E988B /* Build configuration list for PBXNativeTarget "AndroidTVRemoteControl" */;
 			buildPhases = (
-				6840043DDBFD49250ABA76E5988451C3 /* Headers */,
-				7DA3A4401917BE48EB2CB69B18C64ACA /* Sources */,
-				A0699C003603F06E3DBD869B1E47F0FB /* Frameworks */,
-				3F50EA3712E8A2B88F82329CF171D3F4 /* Resources */,
+				DEDF22A2C7F0B9D5B5C7665175828D0D /* Headers */,
+				E1CAC7DA56639AD89DA5AE2986C5ACC7 /* Sources */,
+				B25196560B18491B63C7A6BAA8E3A970 /* Frameworks */,
+				9CA7085E9AEFB19A5D9F89966E071CE3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CB167A001DBDE8802870249E8F2BCD58 /* PBXTargetDependency */,
+			);
+			name = AndroidTVRemoteControl;
+			productName = AndroidTVRemoteControl;
+			productReference = 644829C8D2E274DE4171E02C3A9CD76A /* AndroidTVRemoteControl */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B06C8F4F1A33E4EC3F37D55175CF453 /* Pods-TVCore_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A801E1EFB5BECB89A3D9F1B45E6D033F /* Build configuration list for PBXNativeTarget "Pods-TVCore_Example" */;
+			buildPhases = (
+				960E564BFA8ACD2BA342FE3AF711AD12 /* Headers */,
+				5A1419F1EE221324CFE79A4E69CC0C47 /* Sources */,
+				A335574BA0C6C12E123375C86C97339F /* Frameworks */,
+				AEDF0A5B71FC79417F12BC564A84103B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719A2C6D16E7A1E028E790438962135A /* PBXTargetDependency */,
+				E993CDEBB94DB36D236B6E3D16A28BFC /* PBXTargetDependency */,
+				F7DF15F9AC53ECB7475D52A5ED3EFC18 /* PBXTargetDependency */,
+				C3865F413C50C939386C93DB1F04217B /* PBXTargetDependency */,
 			);
 			name = "Pods-TVCore_Example";
 			productName = Pods_TVCore_Example;
@@ -274,20 +724,77 @@
 		};
 		3225ACE0D5B9F7F746A41FA9E21839A5 /* TVCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 317C7A80295675B956CCC827DB4BC578 /* Build configuration list for PBXNativeTarget "TVCore" */;
+			buildConfigurationList = 5418A0EFB5CC2693F89041DD4B6CEFFB /* Build configuration list for PBXNativeTarget "TVCore" */;
 			buildPhases = (
-				184F9BA67E55E2BD6FB8E6E1DCFF5ED5 /* Headers */,
-				6D3AE3D7AE7245EF2EF448B814E1EB1D /* Sources */,
-				302D249F2F51EAFA6B2A3B8407ECF38D /* Frameworks */,
-				DBA678F6D94E647F8176BD5ED42C9BAC /* Resources */,
+				9CC0076E3E765059D7A68C526898B082 /* Headers */,
+				210D3D7A0E6CC62155A6E23E1EE5521B /* Sources */,
+				486D87ACA3027DC894A195B71D15E32C /* Frameworks */,
+				67A6F94C48120EC6DA4F2F747CD41C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FC78D2B72E8CC4D726F143737B997AE /* PBXTargetDependency */,
+				F3D7EAAD942B2C226CB15862785D8FFF /* PBXTargetDependency */,
+				C64A5F2EB175FE5EA7DE9D203B9592C8 /* PBXTargetDependency */,
+			);
+			name = TVCore;
+			productName = TVCore;
+			productReference = 6C4619B23BC21F4613299AC432B179F1 /* TVCore */;
+			productType = "com.apple.product-type.framework";
+		};
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C5D55F9FC3A8A30A56D403120D1C06B /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				E00DD05508D994002EFC16C8D151D97D /* Headers */,
+				2A77BB83B89C22992F39A72E779418C7 /* Sources */,
+				FA3F4FA98DFFB612E3B16EA4A609DAB7 /* Frameworks */,
+				702F664334E9016A4CD711650A9506CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TVCore;
-			productName = TVCore;
-			productReference = 6C4619B23BC21F4613299AC432B179F1 /* TVCore */;
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */;
+			productType = "com.apple.product-type.framework";
+		};
+		771210E06FA095D070EFB58429312B8F /* Starscream-Starscream_Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D1F7D5A1255902A957C7CFF1CB97BC /* Build configuration list for PBXNativeTarget "Starscream-Starscream_Privacy" */;
+			buildPhases = (
+				2795BEC3FF332492F888E071664D4156 /* Sources */,
+				6684C79B9BBF3C8C5B1B6F9FE4D46C36 /* Frameworks */,
+				ECE05CF71979BD9E20A705055B961B83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Starscream-Starscream_Privacy";
+			productName = Starscream_Privacy;
+			productReference = 90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6AECD1528B47B8305DD9F79E68D882B /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				ECE343FFAC5CCBBEDC781E4FA3601A1A /* Headers */,
+				09AEF5B1B05F3FC55FE5B4A9E025B206 /* Sources */,
+				92EF5BBC3EFCFE60910B74638A1755FC /* Frameworks */,
+				7AC24AF3018BC9C6093C0062FFA1416B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7255BA83994A66DEDE481E917E693329 /* PBXTargetDependency */,
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream */;
 			productType = "com.apple.product-type.framework";
 		};
 		D7F449A6DB78367EA3E78BA222D26709 /* Pods-TVCore_Tests */ = {
@@ -302,7 +809,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D9D3BCB5C4708C64BE59D97992A4C190 /* PBXTargetDependency */,
+				A089EBBE83757C3A112447F9DDC11B09 /* PBXTargetDependency */,
 			);
 			name = "Pods-TVCore_Tests";
 			productName = Pods_TVCore_Tests;
@@ -329,29 +836,63 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C8BA09573AE4A9BBDC4B0149103D09EE /* Products */;
+			productRefGroup = CA4BE0D08AAAD92BF6A0602BC53564B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				0554B822F6C7C3D424A5677918E8331E /* AndroidTVRemoteControl */,
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
 				2B06C8F4F1A33E4EC3F37D55175CF453 /* Pods-TVCore_Example */,
 				D7F449A6DB78367EA3E78BA222D26709 /* Pods-TVCore_Tests */,
+				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
+				771210E06FA095D070EFB58429312B8F /* Starscream-Starscream_Privacy */,
 				3225ACE0D5B9F7F746A41FA9E21839A5 /* TVCore */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F50EA3712E8A2B88F82329CF171D3F4 /* Resources */ = {
+		67A6F94C48120EC6DA4F2F747CD41C41 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBA678F6D94E647F8176BD5ED42C9BAC /* Resources */ = {
+		702F664334E9016A4CD711650A9506CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC24AF3018BC9C6093C0062FFA1416B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC4E87A3CB2C676949C33E78E64BA93 /* Starscream-Starscream_Privacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA7085E9AEFB19A5D9F89966E071CE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEDF0A5B71FC79417F12BC564A84103B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE05CF71979BD9E20A705055B961B83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6928F55B53EEDC825CD9F048B15EE56 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,20 +906,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D3AE3D7AE7245EF2EF448B814E1EB1D /* Sources */ = {
+		09AEF5B1B05F3FC55FE5B4A9E025B206 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CDDA55834EC6E5A2FDB35C55C8F2FA0 /* TVCore-dummy.m in Sources */,
-				DB4393D69086310B3AFBAD8025F237D0 /* TVManager.swift in Sources */,
+				D6102474025E613F9F8D98EFB708CEC6 /* Compression.swift in Sources */,
+				C27AC4CF7DC6EEF22BE5CF742C34BF1B /* Data+Extensions.swift in Sources */,
+				C6E71C71E4833389B33C0199196A5E13 /* Engine.swift in Sources */,
+				3CFB26DFC9AC8164AEC49CD75577C535 /* FoundationHTTPHandler.swift in Sources */,
+				1E3E2F1DF5E1C8D27447FCF94D111167 /* FoundationHTTPServerHandler.swift in Sources */,
+				69111C8CB8268AAD6DD50A84B22944EE /* FoundationSecurity.swift in Sources */,
+				43FE097FBE9B5568B702545F99072CFB /* FoundationTransport.swift in Sources */,
+				4816EF150D924B1987414B356C7AB77E /* FrameCollector.swift in Sources */,
+				21A5D9EBAC5FED24E7FE77087A33B645 /* Framer.swift in Sources */,
+				DC2BE589B1C5A65E08CA6D9D7C319E17 /* HTTPHandler.swift in Sources */,
+				B1EDE680CB2182C3B4900E1945783F9B /* NativeEngine.swift in Sources */,
+				31E77D0FAC67DCFEE1F3173E441C67D6 /* Security.swift in Sources */,
+				4C5BB45AFA17EE49908EEE4B8163EF76 /* Server.swift in Sources */,
+				A017485C3C202ADD0A059DFCCDA5D14D /* Starscream-dummy.m in Sources */,
+				D8D51B6D3248D9CEA719A66A2ABC7319 /* StringHTTPHandler.swift in Sources */,
+				FD8A6F93705C4B172C32D52D17B2B5DC /* TCPTransport.swift in Sources */,
+				BECD28904453E5C00C66B51D37CAD433 /* Transport.swift in Sources */,
+				8A472901A6A0E2D7231E376832198241 /* WebSocket.swift in Sources */,
+				07B83A2E6FCF9A05339E6974FC9D3D32 /* WebSocketServer.swift in Sources */,
+				55DAC2E8DC333019B6C1D70EC91B0A22 /* WSCompression.swift in Sources */,
+				85F55FDAED763889D7DADACE5DC5C567 /* WSEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DA3A4401917BE48EB2CB69B18C64ACA /* Sources */ = {
+		210D3D7A0E6CC62155A6E23E1EE5521B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ABF7312BFDF749540519B63BDD51976 /* Pods-TVCore_Example-dummy.m in Sources */,
+				1C6AFE1F4687A34CAD8C2A56690E031D /* AndroidTVManager.swift in Sources */,
+				29C4E13803C86A64AD8A3368E822F17C /* RemoteTVManager.swift in Sources */,
+				5E627A65BC0EEA7E978EAF67E97653D0 /* SamsungTvManager.swift in Sources */,
+				B80401CC2C21424358FBC059D78E7D5B /* TVCore-dummy.m in Sources */,
+				AEA4315D67808DF97D41BBB5CABE560E /* TvDeviceModel.swift in Sources */,
+				A69BE0673FC4943B17EEE133BBC9B3F3 /* TvDeviceParser.swift in Sources */,
+				DC1BF48258EE8EFFE0866829595E33F6 /* TvInfoModel.swift in Sources */,
+				1220E6451B93B29321F5F4F655FCA787 /* TvSSDPModel.swift in Sources */,
+				2BC8357161AD1C16022D317A84773029 /* TvUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2795BEC3FF332492F888E071664D4156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A77BB83B89C22992F39A72E779418C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B92D1883A2D2069444FAE5AAE6272A /* CocoaAsyncSocket-dummy.m in Sources */,
+				138463D749696B86F3324AC0882A64EB /* GCDAsyncSocket.m in Sources */,
+				08495F2DAFA36769FC16758CFDAC1F67 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1419F1EE221324CFE79A4E69CC0C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCA729545B978C189129E59CBC16602 /* Pods-TVCore_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,28 +983,105 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1CAC7DA56639AD89DA5AE2986C5ACC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18B413634B2BD87D15D28AF2AFED758 /* AndroidTVConfigurationMessage.swift in Sources */,
+				152FD217A0C0D3CA2DBF79DA618F68AD /* AndroidTVRemoteControl-dummy.m in Sources */,
+				5CEE368E9A700A95CB69E9A00F27E06E /* CertManager.swift in Sources */,
+				9736927E586855B72355009BFC71472A /* CommandNetwork.swift in Sources */,
+				EF6F7FBB265F07D0CA4696C9600F4FC1 /* Configuration.swift in Sources */,
+				94E9D97D446194397E1017FFEE850A8F /* CryptoManager.swift in Sources */,
+				937D6A9035CA2E143EA555EF575D7771 /* Decoder.swift in Sources */,
+				0ED14C6D2DC2DFAB32C131A18BAE3739 /* DeepLink.swift in Sources */,
+				4CED6B44BCEE12850DEB34877929E39A /* Direction.swift in Sources */,
+				9DCA868CA01442B6BC6C058BD80AA1AF /* Encoder.swift in Sources */,
+				D97B391BB812EB53F46605448B540BBD /* Errors.swift in Sources */,
+				788501D99C2EFAE8FA88521A96EF23B6 /* Key.swift in Sources */,
+				BBD9D3C04E8533015DA0E5F17D026260 /* KeyPress.swift in Sources */,
+				4704C67B45EF4625968CDD9A12AB48A9 /* Logger.swift in Sources */,
+				0A3E92FF0D0C181343B9C79C73EACEE6 /* Option.swift in Sources */,
+				D34F185F196FAE98C10583753FE88762 /* Pairing.swift in Sources */,
+				A19C4F5081188E27B0C5351DDE505EE4 /* PairingManager.swift in Sources */,
+				8BC40F5E8EF3B5772055F36D21DF4EB4 /* PairingNetwork.swift in Sources */,
+				CE104E26FB362921B338CCE279E85C10 /* Ping.swift in Sources */,
+				01242BA5A2D56E6FC3E16B0F148A5890 /* RemoteManager.swift in Sources */,
+				BB8E14A6583AD527E3C2699571D4870E /* RequestDataProtocol.swift in Sources */,
+				1A0882D4666F1D01E4B00CC4D4F5FCD3 /* Result.swift in Sources */,
+				DEEEE2CD5CCB22FF7CEE9A32B70C265A /* SecodConfiguration.swift in Sources */,
+				B4705C45D7AAE60DC9F5CBC0E9DD12FD /* SecondConfigurationResponse.swift in Sources */,
+				9B277EFB1AD5A72662760E8D0256C46B /* Secret.swift in Sources */,
+				0F05FF274B46D19CC6AE9C247EB1E328 /* TLSManager.swift in Sources */,
+				73628C1FC5D13CC0A44F5F49BD939298 /* VolumeLevel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CB167A001DBDE8802870249E8F2BCD58 /* PBXTargetDependency */ = {
+		0FC78D2B72E8CC4D726F143737B997AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TVCore;
-			target = 3225ACE0D5B9F7F746A41FA9E21839A5 /* TVCore */;
-			targetProxy = A9E80CA04425656CD2F61FF135549794 /* PBXContainerItemProxy */;
+			name = AndroidTVRemoteControl;
+			target = 0554B822F6C7C3D424A5677918E8331E /* AndroidTVRemoteControl */;
+			targetProxy = 3B27BF58E80311D35553F6626EDA49EA /* PBXContainerItemProxy */;
 		};
-		D9D3BCB5C4708C64BE59D97992A4C190 /* PBXTargetDependency */ = {
+		719A2C6D16E7A1E028E790438962135A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AndroidTVRemoteControl;
+			target = 0554B822F6C7C3D424A5677918E8331E /* AndroidTVRemoteControl */;
+			targetProxy = 1F7E31AA347B33D8634A0438AD0D84A4 /* PBXContainerItemProxy */;
+		};
+		7255BA83994A66DEDE481E917E693329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Starscream-Starscream_Privacy";
+			target = 771210E06FA095D070EFB58429312B8F /* Starscream-Starscream_Privacy */;
+			targetProxy = B5E6664198EF284588E647C2F5C75121 /* PBXContainerItemProxy */;
+		};
+		A089EBBE83757C3A112447F9DDC11B09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TVCore_Example";
 			target = 2B06C8F4F1A33E4EC3F37D55175CF453 /* Pods-TVCore_Example */;
-			targetProxy = 7F482ED442897AADB2551443A0F355BA /* PBXContainerItemProxy */;
+			targetProxy = F685B487EFE0FFF798B9B62D4354E7BA /* PBXContainerItemProxy */;
+		};
+		C3865F413C50C939386C93DB1F04217B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TVCore;
+			target = 3225ACE0D5B9F7F746A41FA9E21839A5 /* TVCore */;
+			targetProxy = 99BACE6B074E110FE43A02E3C67EB4FE /* PBXContainerItemProxy */;
+		};
+		C64A5F2EB175FE5EA7DE9D203B9592C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 033575A0ED25C5F7055BC272644C475E /* PBXContainerItemProxy */;
+		};
+		E993CDEBB94DB36D236B6E3D16A28BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 8BDFEF550DC640D021D8542D4A2B0105 /* PBXContainerItemProxy */;
+		};
+		F3D7EAAD942B2C226CB15862785D8FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 7BD46406DABE6ADC76F79ADCFD88ECE1 /* PBXContainerItemProxy */;
+		};
+		F7DF15F9AC53ECB7475D52A5ED3EFC18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 916A785C59F38A811BA1CAE27F5E63C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A0E4758341D56F4768388A6C1D54EAC /* Debug */ = {
+		0DEEAA97DA16C0DEF565A8CB9DA5CA1C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B46BAC2E9CCB2C4C2B75DD51CE6BE443 /* TVCore.debug.xcconfig */;
+			baseConfigurationReference = 58AAA007489410F1735DFC6C646523A7 /* TVCore.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -448,11 +1118,12 @@
 			};
 			name = Debug;
 		};
-		2B1E85EAEEAA240AE414041973483B56 /* Release */ = {
+		0EAA4F726F1AA69F2B1BEBC116D389D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B64095CC7A1585A3900D8218724C7B8B /* Pods-TVCore_Tests.release.xcconfig */;
+			baseConfigurationReference = 40C42C2E09910C1E57EFC47BD002AAFB /* Starscream.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -464,24 +1135,24 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TVCore_Tests/Pods-TVCore_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
-				MODULEMAP_FILE = "Target Support Files/Pods-TVCore_Tests/Pods-TVCore_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -489,7 +1160,127 @@
 			};
 			name = Release;
 		};
-		2CC0E50DE97F7A096190AE2D018192F3 /* Debug */ = {
+		11735F95AE45E3023B53005AF1364236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C85A98A6C15391BD647687B0D4DEE288 /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		428F9EAAFEFDB19E6210C8852A9A8F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDEC96B64731C29CE6689E0716FE3C77 /* AndroidTVRemoteControl.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AndroidTVRemoteControl/AndroidTVRemoteControl-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AndroidTVRemoteControl/AndroidTVRemoteControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/AndroidTVRemoteControl/AndroidTVRemoteControl.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_MODULE_NAME = AndroidTVRemoteControl;
+				PRODUCT_NAME = AndroidTVRemoteControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44976D76566AB8DA3AD108F9F694539E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF439D6BC2C1D08584C5C3A54600B04 /* CocoaAsyncSocket.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F05860E6759D6F8D3A3C90BE5C68EE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -543,7 +1334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -557,7 +1348,174 @@
 			};
 			name = Debug;
 		};
-		33E1079DA7A8EDD01359DC52FEF4F32E /* Release */ = {
+		75529050611B4AFC55AB619737516FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81DCC0CBB45AD9140E81B6049D6B7AF /* AndroidTVRemoteControl.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/AndroidTVRemoteControl/AndroidTVRemoteControl-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/AndroidTVRemoteControl/AndroidTVRemoteControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/AndroidTVRemoteControl/AndroidTVRemoteControl.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_MODULE_NAME = AndroidTVRemoteControl;
+				PRODUCT_NAME = AndroidTVRemoteControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7574E3D2342647014B6CA203728A81BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64095CC7A1585A3900D8218724C7B8B /* Pods-TVCore_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TVCore_Tests/Pods-TVCore_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-TVCore_Tests/Pods-TVCore_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CD7B0C26D729E3685E2E98B84891687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C07B2077B4A49FD418E5910561A92A /* Starscream.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7ED8743F298A4A810EDA1A55D83CAB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7F77268DBB1AFBC6A9C4635FC35CF1 /* TVCore.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TVCore/TVCore-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/TVCore/TVCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/TVCore/TVCore.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_MODULE_NAME = TVCore;
+				PRODUCT_NAME = TVCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96DA2594968E9FC7D8630AC90BF1C041 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -608,7 +1566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -620,11 +1578,12 @@
 			};
 			name = Release;
 		};
-		E5EA85D9F8894DF44E45968F70156EFC /* Release */ = {
+		AA926C914AF89B6879309C4A3C89123D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B27E29AE22E6E06074770DC965283E09 /* Pods-TVCore_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -640,7 +1599,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-TVCore_Example/Pods-TVCore_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
@@ -663,11 +1622,12 @@
 			};
 			name = Release;
 		};
-		E6721AC0FDE899C934EDD2E521AF050F /* Debug */ = {
+		B9A34909D10992060AB2DA1642BB6D1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51DE43DF61081DE432A2C95D12D67C29 /* Pods-TVCore_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -682,7 +1642,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-TVCore_Tests/Pods-TVCore_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
@@ -703,52 +1663,46 @@
 			};
 			name = Debug;
 		};
-		E791E5D821BE275F5A8F7D2AB844DCEA /* Release */ = {
+		D03EF02A053C290DFB7638A27F313D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34555E0FDA45573D7353E926E2F26507 /* TVCore.release.xcconfig */;
+			baseConfigurationReference = C0C07B2077B4A49FD418E5910561A92A /* Starscream.debug.xcconfig */;
 			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/TVCore/TVCore-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/TVCore/TVCore-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				MODULEMAP_FILE = "Target Support Files/TVCore/TVCore.modulemap";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_MODULE_NAME = TVCore;
-				PRODUCT_NAME = TVCore;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Starscream";
+				IBSC_MODULE = Starscream;
+				INFOPLIST_FILE = "Target Support Files/Starscream/ResourceBundle-Starscream_Privacy-Starscream-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = Starscream_Privacy;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FA8ED9EF07895B8187BBBB2CD0061E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C42C2E09910C1E57EFC47BD002AAFB /* Starscream.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Starscream";
+				IBSC_MODULE = Starscream;
+				INFOPLIST_FILE = "Target Support Files/Starscream/ResourceBundle-Starscream_Privacy-Starscream-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = Starscream_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		F7CA4C8443FF7CAF4932BC72A89CE219 /* Debug */ = {
+		FBF451829BCCD0B4C23D399116356EDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0FC4EC9C10D7A431A2C8DA608BF5FD86 /* Pods-TVCore_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -764,7 +1718,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-TVCore_Example/Pods-TVCore_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
@@ -789,11 +1743,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		317C7A80295675B956CCC827DB4BC578 /* Build configuration list for PBXNativeTarget "TVCore" */ = {
+		37A41B422AAF30E24C050E4F054E988B /* Build configuration list for PBXNativeTarget "AndroidTVRemoteControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A0E4758341D56F4768388A6C1D54EAC /* Debug */,
-				E791E5D821BE275F5A8F7D2AB844DCEA /* Release */,
+				428F9EAAFEFDB19E6210C8852A9A8F11 /* Debug */,
+				75529050611B4AFC55AB619737516FDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -801,17 +1755,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CC0E50DE97F7A096190AE2D018192F3 /* Debug */,
-				33E1079DA7A8EDD01359DC52FEF4F32E /* Release */,
+				4F05860E6759D6F8D3A3C90BE5C68EE9 /* Debug */,
+				96DA2594968E9FC7D8630AC90BF1C041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F7FE93829762E7E0B79DD3690AA0978 /* Build configuration list for PBXNativeTarget "Pods-TVCore_Example" */ = {
+		5418A0EFB5CC2693F89041DD4B6CEFFB /* Build configuration list for PBXNativeTarget "TVCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7CA4C8443FF7CAF4932BC72A89CE219 /* Debug */,
-				E5EA85D9F8894DF44E45968F70156EFC /* Release */,
+				0DEEAA97DA16C0DEF565A8CB9DA5CA1C /* Debug */,
+				7ED8743F298A4A810EDA1A55D83CAB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -819,8 +1773,44 @@
 		749CFADFC8487820572D47ABD7438698 /* Build configuration list for PBXNativeTarget "Pods-TVCore_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6721AC0FDE899C934EDD2E521AF050F /* Debug */,
-				2B1E85EAEEAA240AE414041973483B56 /* Release */,
+				B9A34909D10992060AB2DA1642BB6D1B /* Debug */,
+				7574E3D2342647014B6CA203728A81BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D1F7D5A1255902A957C7CFF1CB97BC /* Build configuration list for PBXNativeTarget "Starscream-Starscream_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03EF02A053C290DFB7638A27F313D39 /* Debug */,
+				FA8ED9EF07895B8187BBBB2CD0061E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C5D55F9FC3A8A30A56D403120D1C06B /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44976D76566AB8DA3AD108F9F694539E /* Debug */,
+				11735F95AE45E3023B53005AF1364236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A801E1EFB5BECB89A3D9F1B45E6D033F /* Build configuration list for PBXNativeTarget "Pods-TVCore_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF451829BCCD0B4C23D399116356EDF /* Debug */,
+				AA926C914AF89B6879309C4A3C89123D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6AECD1528B47B8305DD9F79E68D882B /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CD7B0C26D729E3685E2E98B84891687 /* Debug */,
+				0EAA4F726F1AA69F2B1BEBC116D389D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

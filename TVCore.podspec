@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Sources'
+  s.source_files = 'Sources/**/*.{swift}'
   
   # s.resource_bundles = {
   #   'TVCore' => ['TVCore/Assets/*.png']
@@ -38,5 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AndroidTVRemoteControl', '2.4.16'
+  s.dependency 'Starscream', '~> 4.0.6'
+  s.dependency 'CocoaAsyncSocket', '7.6.5'
 end
