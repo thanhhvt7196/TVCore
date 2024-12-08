@@ -169,7 +169,7 @@ extension RemoteTVManager: GCDAsyncUdpSocketDelegate {
     }
 }
 
-public enum TvCommand {
+public enum TvCommand: String {
     case KEY_MENU
     case KEY_UP
     case KEY_DOWN
