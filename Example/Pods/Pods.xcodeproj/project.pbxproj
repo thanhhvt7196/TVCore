@@ -35,7 +35,7 @@
 		43FE097FBE9B5568B702545F99072CFB /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A778110B484D9F5E7F7B1B841C93D29 /* FoundationTransport.swift */; };
 		4704C67B45EF4625968CDD9A12AB48A9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D39883F10486F5EECA958E05D670518 /* Logger.swift */; };
 		4816EF150D924B1987414B356C7AB77E /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E554918C3A59B595C6905A41C0CC48D /* FrameCollector.swift */; };
-		4AC4E87A3CB2C676949C33E78E64BA93 /* Starscream_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90DF440CB562947BB255E9A3E9B29568 /* Starscream_Privacy.bundle */; };
+		4AC4E87A3CB2C676949C33E78E64BA93 /* Starscream-Starscream_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = 90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */; };
 		4C5BB45AFA17EE49908EEE4B8163EF76 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCA4306799093A9CB332095EFBC4C91 /* Server.swift */; };
 		4CED6B44BCEE12850DEB34877929E39A /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74564FCA3C34ADC886D9B75185A32E /* Direction.swift */; };
 		55DAC2E8DC333019B6C1D70EC91B0A22 /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3DB45BFBA44AE3EF7721B44327A93E /* WSCompression.swift */; };
@@ -204,23 +204,23 @@
 		5E554918C3A59B595C6905A41C0CC48D /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
 		5F5B64A8E6E67C978500AB8E4EACF71D /* AndroidTVRemoteControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AndroidTVRemoteControl-dummy.m"; sourceTree = "<group>"; };
 		60A914D6D0E6BD2CA6B8DDE488FE1DF8 /* PairingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PairingManager.swift; path = Sources/AndroidTVRemoteControl/PairingManager.swift; sourceTree = "<group>"; };
-		644829C8D2E274DE4171E02C3A9CD76A /* AndroidTVRemoteControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AndroidTVRemoteControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		644829C8D2E274DE4171E02C3A9CD76A /* AndroidTVRemoteControl */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AndroidTVRemoteControl; path = AndroidTVRemoteControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65092DDD99202DC39A7824314FDB1970 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
 		6A3DB45BFBA44AE3EF7721B44327A93E /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
 		6B530E350E404694DAE15EF33F495BBC /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
-		6C4619B23BC21F4613299AC432B179F1 /* TVCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TVCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4619B23BC21F4613299AC432B179F1 /* TVCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TVCore; path = TVCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70524D4E5D7593E1D6D63A77A3BE8830 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
 		713CA10484B3EEF7745709058D7BCCC4 /* TVCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TVCore-dummy.m"; sourceTree = "<group>"; };
 		7474A55FE81843F077F0E2CF0C15DAF0 /* Pods-TVCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		74C5F737A1EBAC18257D3F8209A71C4A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		7792BDF7D5CB94632D4B78C9C7D1F6DB /* PairingNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PairingNetwork.swift; path = Sources/AndroidTVRemoteControl/Network/PairingNetwork/PairingNetwork.swift; sourceTree = "<group>"; };
-		79E66E2F4058DBC8DDA9A113A414A89B /* TVCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TVCore.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		79E66E2F4058DBC8DDA9A113A414A89B /* TVCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TVCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7DCB93C51D4AB9E93F57B05904AD48EB /* TvDeviceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TvDeviceModel.swift; sourceTree = "<group>"; };
 		83F16C9D6FF460B0DAA4836C1BD15EF0 /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
-		891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F93D2F81FB440164011A507AD78C442 /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
-		90DF440CB562947BB255E9A3E9B29568 /* Starscream_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Starscream_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Starscream-Starscream_Privacy"; path = Starscream_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		939136CF0DF0B6A118A0DC710F33C87D /* DeepLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeepLink.swift; path = Sources/AndroidTVRemoteControl/Commands/DeepLink.swift; sourceTree = "<group>"; };
 		9689BF99140C57AAD9E19F4B0CC9061E /* Pods-TVCore_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVCore_Example-Info.plist"; sourceTree = "<group>"; };
 		96C034C194D6DD0A8AB42AF944FF50E9 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
@@ -230,7 +230,7 @@
 		99E67D7AA6A43047BEC4BE6ECB790888 /* TvInfoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TvInfoModel.swift; sourceTree = "<group>"; };
 		9D39883F10486F5EECA958E05D670518 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Sources/AndroidTVRemoteControl/misc/Logger.swift; sourceTree = "<group>"; };
 		9D74564FCA3C34ADC886D9B75185A32E /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = Sources/AndroidTVRemoteControl/Commands/Direction.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0C467A8661E4ABF936A3A80FD94E181 /* Pods-TVCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A15343A8B928E137F443DE5DDCED3693 /* Ping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ping.swift; path = Sources/AndroidTVRemoteControl/Network/CommandNetwork/Ping.swift; sourceTree = "<group>"; };
 		A548DCEBE3C824FBC475A204CA3D91E9 /* Pods-TVCore_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVCore_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -246,12 +246,12 @@
 		B8E265FFAC91E12C7E0570B9667C6431 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		B962D066513AA2A90E09C7855E022537 /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Sources/AndroidTVRemoteControl/coding/Encoder.swift; sourceTree = "<group>"; };
 		BB91558FE30160674149AD26A5D97EA1 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		BBEB1D96DF634FF086CB0FD4D91D2841 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BBEB1D96DF634FF086CB0FD4D91D2841 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BDEC96B64731C29CE6689E0716FE3C77 /* AndroidTVRemoteControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AndroidTVRemoteControl.debug.xcconfig; sourceTree = "<group>"; };
 		BDF439D6BC2C1D08584C5C3A54600B04 /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
 		BE4A03D4D17DA15D3579E15E1F467826 /* ResourceBundle-Starscream_Privacy-Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Starscream_Privacy-Starscream-Info.plist"; sourceTree = "<group>"; };
 		C0C07B2077B4A49FD418E5910561A92A /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
-		C2942102E055C16B6AFD9C0BAD4B3B6F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		C2942102E055C16B6AFD9C0BAD4B3B6F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		C42797604BAD9FBFBD1ECA9B296123F7 /* CertManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CertManager.swift; path = Sources/AndroidTVRemoteControl/CertManager.swift; sourceTree = "<group>"; };
 		C81DCC0CBB45AD9140E81B6049D6B7AF /* AndroidTVRemoteControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AndroidTVRemoteControl.release.xcconfig; sourceTree = "<group>"; };
 		C85A98A6C15391BD647687B0D4DEE288 /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
@@ -266,12 +266,12 @@
 		E1F03540C07D49A4CDA403C3CE3A1186 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
 		E2824CE67F93B8B33CA07932427F75AD /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
 		EC13854239B37CABE24D60B7EA7E4CB2 /* TvUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TvUtils.swift; path = Sources/TvUtils.swift; sourceTree = "<group>"; };
-		ED6BC4226AAAE656B337AA4773C7A8FC /* Pods_TVCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6BC4226AAAE656B337AA4773C7A8FC /* Pods-TVCore_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TVCore_Tests"; path = Pods_TVCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED97733068C09050C07365E14CB52F3B /* Pods-TVCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVCore_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F22B3AC92B4B95BEEB9C6CEF061FF592 /* RemoteTVManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteTVManager.swift; path = Sources/RemoteTVManager.swift; sourceTree = "<group>"; };
 		F45FCE47DDD9FCF0D2244EE98C903365 /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
-		F695A99F9B14722852F2DB0DFE70B0E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F83E9CDCBE77BB87F0B23912AB6AF10A /* Pods_TVCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F695A99F9B14722852F2DB0DFE70B0E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F83E9CDCBE77BB87F0B23912AB6AF10A /* Pods-TVCore_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TVCore_Example"; path = Pods_TVCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8867B219000237E1146FF27692935A1 /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
 		FBCA4306799093A9CB332095EFBC4C91 /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
 		FF57F90536D2DA210E3C07CA9D515773 /* Pods-TVCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TVCore_Tests.modulemap"; sourceTree = "<group>"; };
@@ -377,6 +377,7 @@
 				431BA81566674E737FB9F8C1E190C8A4 /* VolumeLevel.swift */,
 				B83A1D5686744E7F35FFDA5155F5B352 /* Support Files */,
 			);
+			name = AndroidTVRemoteControl;
 			path = AndroidTVRemoteControl;
 			sourceTree = "<group>";
 		};
@@ -430,6 +431,7 @@
 				1135726EB9086A772D146BE927EFA6AB /* GCDAsyncUdpSocket.m */,
 				71E676F814041ADCB9800BCE884B49A4 /* Support Files */,
 			);
+			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
@@ -529,13 +531,13 @@
 		CA4BE0D08AAAD92BF6A0602BC53564B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				644829C8D2E274DE4171E02C3A9CD76A /* AndroidTVRemoteControl.framework */,
-				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */,
-				F83E9CDCBE77BB87F0B23912AB6AF10A /* Pods_TVCore_Example.framework */,
-				ED6BC4226AAAE656B337AA4773C7A8FC /* Pods_TVCore_Tests.framework */,
-				891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */,
-				90DF440CB562947BB255E9A3E9B29568 /* Starscream_Privacy.bundle */,
-				6C4619B23BC21F4613299AC432B179F1 /* TVCore.framework */,
+				644829C8D2E274DE4171E02C3A9CD76A /* AndroidTVRemoteControl */,
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
+				F83E9CDCBE77BB87F0B23912AB6AF10A /* Pods-TVCore_Example */,
+				ED6BC4226AAAE656B337AA4773C7A8FC /* Pods-TVCore_Tests */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream */,
+				90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */,
+				6C4619B23BC21F4613299AC432B179F1 /* TVCore */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -577,6 +579,7 @@
 				EA9B31BB3FA9AC15633A1F74AA5311B4 /* Resources */,
 				1D1DC46A129C43959CB642C685F8F745 /* Support Files */,
 			);
+			name = Starscream;
 			path = Starscream;
 			sourceTree = "<group>";
 		};
@@ -694,7 +697,7 @@
 			);
 			name = AndroidTVRemoteControl;
 			productName = AndroidTVRemoteControl;
-			productReference = 644829C8D2E274DE4171E02C3A9CD76A /* AndroidTVRemoteControl.framework */;
+			productReference = 644829C8D2E274DE4171E02C3A9CD76A /* AndroidTVRemoteControl */;
 			productType = "com.apple.product-type.framework";
 		};
 		2B06C8F4F1A33E4EC3F37D55175CF453 /* Pods-TVCore_Example */ = {
@@ -716,7 +719,7 @@
 			);
 			name = "Pods-TVCore_Example";
 			productName = Pods_TVCore_Example;
-			productReference = F83E9CDCBE77BB87F0B23912AB6AF10A /* Pods_TVCore_Example.framework */;
+			productReference = F83E9CDCBE77BB87F0B23912AB6AF10A /* Pods-TVCore_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		3225ACE0D5B9F7F746A41FA9E21839A5 /* TVCore */ = {
@@ -737,7 +740,7 @@
 			);
 			name = TVCore;
 			productName = TVCore;
-			productReference = 6C4619B23BC21F4613299AC432B179F1 /* TVCore.framework */;
+			productReference = 6C4619B23BC21F4613299AC432B179F1 /* TVCore */;
 			productType = "com.apple.product-type.framework";
 		};
 		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
@@ -755,7 +758,7 @@
 			);
 			name = CocoaAsyncSocket;
 			productName = CocoaAsyncSocket;
-			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */;
 			productType = "com.apple.product-type.framework";
 		};
 		771210E06FA095D070EFB58429312B8F /* Starscream-Starscream_Privacy */ = {
@@ -772,7 +775,7 @@
 			);
 			name = "Starscream-Starscream_Privacy";
 			productName = Starscream_Privacy;
-			productReference = 90DF440CB562947BB255E9A3E9B29568 /* Starscream_Privacy.bundle */;
+			productReference = 90DF440CB562947BB255E9A3E9B29568 /* Starscream-Starscream_Privacy */;
 			productType = "com.apple.product-type.bundle";
 		};
 		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
@@ -791,7 +794,7 @@
 			);
 			name = Starscream;
 			productName = Starscream;
-			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream.framework */;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream */;
 			productType = "com.apple.product-type.framework";
 		};
 		D7F449A6DB78367EA3E78BA222D26709 /* Pods-TVCore_Tests */ = {
@@ -810,7 +813,7 @@
 			);
 			name = "Pods-TVCore_Tests";
 			productName = Pods_TVCore_Tests;
-			productReference = ED6BC4226AAAE656B337AA4773C7A8FC /* Pods_TVCore_Tests.framework */;
+			productReference = ED6BC4226AAAE656B337AA4773C7A8FC /* Pods-TVCore_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -831,6 +834,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = CA4BE0D08AAAD92BF6A0602BC53564B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -865,7 +870,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC4E87A3CB2C676949C33E78E64BA93 /* Starscream_Privacy.bundle in Resources */,
+				4AC4E87A3CB2C676949C33E78E64BA93 /* Starscream-Starscream_Privacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

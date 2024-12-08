@@ -2,7 +2,7 @@ PODS:
   - AndroidTVRemoteControl (2.4.16)
   - CocoaAsyncSocket (7.6.5)
   - Starscream (4.0.8)
-  - TVCore (0.1.0):
+  - TVCore (0.1.1):
     - AndroidTVRemoteControl (= 2.4.16)
     - CocoaAsyncSocket (= 7.6.5)
     - Starscream (~> 4.0.6)
@@ -24,7 +24,7 @@ SPEC CHECKSUMS:
   AndroidTVRemoteControl: a4e8838b85ddc0418d29d0a7bfb732ab98d91f2c
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
-  TVCore: ae7297d28b965135ae073ddc03fa323c1df79fc7
+  TVCore: 935d8c2cef2eee2d445d24f6e428d5607698c56f
 
 PODFILE CHECKSUM: 2e2cb96c4102b5f30ef9e4e0d58b5f78af21e673
 

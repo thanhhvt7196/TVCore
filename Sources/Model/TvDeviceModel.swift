@@ -1,6 +1,6 @@
 import Foundation
 
-public class TvDeviceModel {
+public class TvDeviceModel: Codable {
     public var host: String
     public var name: String
     
